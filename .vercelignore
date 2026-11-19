@@ -1,0 +1,8 @@
+# The Vercel CLI uploads the working tree and does not read .gitignore, so local secrets and QA
+# output are kept out of deployments here. (Git-connected builds only see committed files.)
+.env*
+!.env.example
+qa-output
+test-results
+playwright-report
+.lighthouse
