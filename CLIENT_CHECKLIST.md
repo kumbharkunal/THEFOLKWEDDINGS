@@ -25,6 +25,7 @@ Most answers are a one-line change in `src/content/site.ts` (copy and facts) or 
 - [ ] **Service area.** Currently "Based in Belgaum. Working across Goa and Bangalore, and available worldwide." (from the bio, which says "Belgaum | Goa | Banglore" and "Available Globaly"; the site corrects the spelling).
 - [ ] **Services.** Weddings, wedding films, pre-weddings, engagement and ring ceremonies, haldi and portraits are all in the studio's own posts. **Mehendi** (with haldi) and **sangeet** (a booking chip) are not yet; confirm or remove them.
 - [ ] **The album.** Step 04 of How we work promises "a carefully edited gallery, your film and an album made to be handed down". Their "New Chapter" highlight shows a maroon album with the logo; confirm albums are part of their packages.
+- [ ] **The promise and the places** (`manifesto.credo`, `manifesto.places`). "Real moments, raw emotions, artistic frames" is their own bio; the one-line explanations under each are ours. "Where the stories happen" lists Belgaum (home), Goa, Bangalore, Lalit Mahal in Mysore and Sangam Mahuli in Satara (venues named in their posts), each with the city's coordinates. Confirm the wording, or swap in the places they are proudest of.
 - [ ] **No prices anywhere.** Every call to action is about checking availability. Keep it that way unless the studio decides otherwise.
 
 ## Reviews and ratings

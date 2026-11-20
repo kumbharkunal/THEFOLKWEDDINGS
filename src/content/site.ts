@@ -137,6 +137,38 @@ export const manifesto = {
       text: ". A grandmother who knows each ritual by heart. The Folk Weddings keeps all of it: the love, the people and the culture they carry.",
     },
   ] as TextRun[],
+  /** The studio's own promise, word for word from its bio: real moments, raw emotions, artistic frames. */
+  credo: [
+    {
+      title: "Real moments",
+      text: "The glance across the mandap and the laugh nobody planned, caught as they happen.",
+    },
+    {
+      title: "Raw emotions",
+      text: "Tears at the farewell and dancing at the sangeet, kept honest in every frame and film.",
+    },
+    {
+      title: "Artistic frames",
+      text: "Temples, palaces and old forts, framed with patience and good light.",
+    },
+  ],
+  /** A film-frame counter, the site's signature motif: "Fr. 01". */
+  frameLabel: (index: number) => `Fr. ${String(index).padStart(2, "0")}`,
+  /**
+   * Where the studio works (the cities in its bio) and where recent stories were made (venues named
+   * in its own posts), each with the city's position, read like an EXIF location.
+   */
+  places: {
+    title: "Where the stories happen",
+    items: [
+      { name: "Belgaum", note: "home", position: "15.85°N 74.50°E" },
+      { name: "Goa", note: null, position: "15.50°N 73.83°E" },
+      { name: "Bangalore", note: null, position: "12.97°N 77.59°E" },
+      { name: "Mysore", note: "Lalit Mahal", position: "12.30°N 76.64°E" },
+      { name: "Satara", note: "Sangam Mahuli", position: "17.68°N 74.02°E" },
+      { name: "Anywhere else", note: null, position: "available worldwide" },
+    ] as { name: string; note: string | null; position: string }[],
+  },
 } as const;
 
 /* Selected stories. Titles are moments, not couples. */

@@ -150,7 +150,7 @@ A `cream-deep` shell, 6px, around a `#FFFAF1` core, with `shadow-card` (a white 
 |---|---|
 | Hero | full-bleed pin-scrub |
 | Marquee | kinetic strip |
-| The name | elephant ornament + scrubbed paragraph + floating prints |
+| The name | elephant ornament + scrubbed paragraph + floating prints, then the studio's promise beside one print and "Where the stories happen" under the other |
 | Stories | horizontal roll (desktop) / snap carousel (mobile) |
 | Services | index list + cursor preview |
 | Behind the lens | 5/7 split (the only split on the page) |

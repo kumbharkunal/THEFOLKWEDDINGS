@@ -17,7 +17,7 @@ It is a pitch demo. Search engines are kept out (demo mode), unconfirmed studio 
 | Intro | First visit only: the studio's own logo draws itself in on its maroon, then an aperture iris opens onto the hero. Click, scroll or a key skips it. |
 | Hero | "Stories of *love*, people & culture." over an art-directed photo (portrait and landscape crops). On large screens, scrolling turns the screen into a framed print. A WebGL "liquid light" follows the cursor. |
 | Marquee | The services in italic, speeding up and reversing with your scroll. |
-| The name | The logo's elephant, a reading of "folk", and a paragraph that develops word by word. |
+| The name | The logo's elephant, a reading of "folk", and a paragraph that develops word by word. Then the studio's own promise from its bio (real moments, raw emotions, artistic frames) and "Where the stories happen": Belgaum, Goa, Bangalore and venues from its posts, each with its position read like an EXIF location. |
 | Selected stories | A pinned horizontal film roll on desktop, a swipe carousel on phones; any frame opens full screen. |
 | What we capture | An index of services; hovering shows a floating photo. Each row opens WhatsApp with a message about that service. |
 | Behind the lens | A print that develops as it scrolls into view, and "Led by Praveen Pk." |
