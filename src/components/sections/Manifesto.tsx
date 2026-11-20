@@ -22,7 +22,9 @@ export function Manifesto() {
   return (
     <section id="name" aria-labelledby="name-title" className="relative">
       <ManifestoMotion>
-        <div className="container-page section-y grid grid-cols-4 gap-x-4 md:grid-cols-6 md:gap-x-5 lg:grid-cols-12 lg:grid-rows-[auto_1fr] lg:gap-x-6">
+        {/* On large screens the stories stage below brings its own headroom, so this section ends
+            on a shorter bottom padding instead of stacking two empty bands. */}
+        <div className="container-page section-y grid grid-cols-4 gap-x-4 md:grid-cols-6 md:gap-x-5 lg:grid-cols-12 lg:grid-rows-[auto_1fr] lg:gap-x-6 lg:pb-[calc(var(--section-y)*0.35)]">
           <div className="col-span-4 md:col-span-6 lg:col-span-5 lg:row-start-1">
             <h2 id="name-title" className="font-normal">
               <span data-ornament className="block w-[min(78%,24rem)] lg:w-[min(100%,26rem)]">
